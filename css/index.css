@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+.top_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.top_title {
+  text-align: left;
+  padding: 0 20px;
+}
+
+.top_img {
+  border-radius: 40px;
+  padding: 0 20px;
+}
+.top_subtitle {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.top_txt {
+  margin-top: 100px;
+  line-height: 2;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section {
+  margin-top: 200px;
+}
+
+.feature {
+  padding: 800px 150px 100px 150px;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.feature_bg img {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  border-radius: 40px;
+}
+
+.feature_inner {
+  display: inline-block;
+  width: 50%;
+}
+
+.feature_inner h4 {
+  padding: 15% 0 0 15%;
+  font-size: 50px;
+  color: rgb(88, 92, 176);
+}
+
+.feature_inner small {
+  padding-left: 15%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.feature_inner p {
+  padding: 10%;
+}
+
+.service {
+  background-color: #c9e4f1;
+  padding: 50px 80px;
+  height: 1100px;
+}
+
+.service h3 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(88, 92, 176);
+  line-height: 1;
+}
+
+.service small {
+  font-size: 20px;
+  color: #555;
+}
+
+.service_bg {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  text-align: center;
+  position: relative;
+}
+
+.service_item {
+  width: 25%;
+  height: 600px;
+  margin-top: 100px;
+
+}
+
+.service_item img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.service_item h4 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.service_item small {
+  font-size: 13px;
+  color: rgb(88, 92, 176);
+  font-weight: bold;
+}
+
+.service_item p {
+  padding: 10px;
+  line-height: 2;
+}
+.btn {
+  text-align: center;
+}
+
+.btn a {
+  background: rgb(88, 92, 176);
+  padding: 20px 60px;
+  top: 150px;
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.btn a::after {
+  content: '';
+  position: absolute;
+  top: 41%;
+  right: 35px;
+  width: 8px;
+  height:8px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  transition: all .3s;
+}
+
+.btn a:hover::after {
+  right: 25px;
+}
+
+.recruit .btn a::after {
+  top: 44%;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.recruit {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-top: 400px;
+}
+
+.recruit_inner {
+  width: 40%;
+  position: relative;
+  left: 100px;
+  top: 280px;
+  z-index: 1;
+}
+
+.recruit h3 {
+  font-size: 50px;
+  color: rgb(88, 92, 176);
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.recruit h3 small {
+  font-size: 20px;
+  color: #555;
+  font-weight: bold;
+}
+
+.recruit h4 {
+  font-size: 25px;
+  padding-top: 40px;
+  color: #222;
+}
+
+.recruit p {
+  line-height: 2.5;
+}
+
+.recruit .btn a {
+  text-align: center;
+  background: rgb(88, 92, 176);
+  padding: 20px 60px;
+  position: relative;
+  top: 90px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 40px;
+}
+
+.recruit img {
+  position: relative;
+  float: right;
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  z-index: 1;
+  bottom: 500px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.recruit_bg {
+  width: 80%;
+  height: 800px;
+  background-color: #eee;
+  position: absolute;
+  top: 150px;
+  z-index: 0;
+  border-bottom-right-radius: 40px;
+}
+
